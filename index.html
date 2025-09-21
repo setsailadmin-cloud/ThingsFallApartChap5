@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things Fall Apart - Chapter 5 Study Questions</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f7f4;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(135deg, #8b4513, #d2691e);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header h2 {
+            margin: 10px 0 0 0;
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+
+        .category {
+            margin-bottom: 35px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .category-header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 20px;
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+
+        .question-item {
+            border-bottom: 1px solid #eee;
+        }
+
+        .question-item:last-child {
+            border-bottom: none;
+        }
+
+        .question {
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+
+        .question:hover {
+            background-color: #f8f9fa;
+            border-left-color: #3498db;
+        }
+
+        .question.active {
+            background-color: #e8f4f8;
+            border-left-color: #2980b9;
+        }
+
+        .question-number {
+            font-weight: bold;
+            color: #2980b9;
+            margin-right: 10px;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            color: #2c3e50;
+        }
+
+        .answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .answer.show {
+            max-height: 500px;
+            padding: 20px;
+        }
+
+        .answer-content {
+            font-style: italic;
+            color: #495057;
+            line-height: 1.7;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #28a745;
+        }
+
+        .click-hint {
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+            margin: 20px 0;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .category-header {
+                font-size: 1.2em;
+                padding: 15px;
+            }
+            
+            .question {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Things Fall Apart</h1>
+        <h2>Chapter 5 Study Questions</h2>
+    </div>
+
+    <div class="click-hint">
+        📚 Click on any question to reveal the answer
+    </div>
+
+    <div class="category">
+        <div class="category-header">
+            📖 Reading Comprehension
+        </div>
+        
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">Achebe begins Chapter Five by describing the Feast of the New Yam. What does the reader learn about Umuofian culture through this description?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    The reader learns that, while women generally maintain a low position in the clan's society, they are important to the clan's religion. Ani, the earth-mother-goddess is portrayed as, perhaps, the most powerful and certainly the most important of the clan's deities. The reader also learns in the section how important the yam is to Umuofia. The yam is celebrated as the main crop of the tribe. A man's importance is determined by his ability to grow yams, so the men take this opportunity to show thanks to the land. Finally, the reader is given another glimpse of Okonkwo's personality. Okonkwo is not comfortable with the celebration because he is unable to work during this time. "But he was always uncomfortable sitting around for days waiting for a feast or getting over it. He would be very much happier working on his farm."
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">Who is responsible for the major preparations for the Feast of the New Yam? What does this tell the reader about Ibo culture?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    The women were chiefly responsible for preparing for the feast. They are the ones who clean the materials necessary to cook; they are also the ones who take care of preparing the home with its decorations.
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">What is Ekwefi's favorite part of the festival? Why?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Ekwefi's favorite part of the festival is the wrestling match that takes place on the second day. It is her favorite because that is where she first fell in love with Okonkwo.
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">When people call for one another, why do they respond "Is that me?"</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    They respond in this manner because they are worried that there is an evil spirit who is calling them.
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">What type of relationship has Ikemefuna developed with Okonkwo's family? Cite an instance in this chapter that demonstrates this relationship.</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Ikemefuna is becoming very close with the family. In this chapter, Obiageli breaks her water pot; however, she does not tell her mother the truth about how she broke it. Her brothers were going to tell on her, but Ikemefuna keeps them from doing so.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">
+            🧠 Character Analysis
+        </div>
+        
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">Why does Okonkwo become angry before the New Yam Festival? Was his anger directed in the right place? Why or why not?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Okonkwo becomes angry because one of his wives used part of the banana tree. He beats her in order to satisfy his anger. His anger is not directed in the right place. Okonkwo is angry because he cannot work, and he is simply finding ways to release that anger.
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">When Okonkwo's wives bring him his food for the evening, Ezinma sits with her father while she waits for him to finish her mother's dish. Why does Okonkwo yell at her?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Okonkwo yells at Ezinma to sit with her legs closed. This exchange happens right before the reader learns how fond Okonkwo is of Ezinma, and also before Okonkwo reminds Ezinma that she is trying to do a boy's job by asking to bring his chair to the wrestling. This might indicate to the reader that sitting with one's legs together has something to do with femininity. Sitting with one's legs together could also refer to a young woman's sexual purity.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="category">
+        <div class="category-header">
+            ✨ Literary Analysis
+        </div>
+        
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">For what reason does Achebe repeat the word "beautiful" when describing the way the women decorate their bodies and cut their children's hair into patterns?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Such body decoration and hair cutting might seem odd and "primitive" to Achebe's European readers. He is, therefore, trying to establish that, in Ibo culture, these decorations are considered beautiful, not savage.
+                </div>
+            </div>
+        </div>
+
+        <div class="question-item">
+            <div class="question" onclick="toggleAnswer(this)">
+                <span class="question-text">What is the significance of the extended metaphor Achebe uses to describe the drums and their relationship to the village?</span>
+            </div>
+            <div class="answer">
+                <div class="answer-content">
+                    Okonkwo compares the sound of the drums with the beating of a heart. "The drums were still beating, persistent and unchanging. Their sound was no longer a separate thing from the living village. It was like the pulsation of its heart. It throbbed in the air, in the sunshine, and even in the trees, and filled the village with excitement." Achebe is explaining that the drums are not something added to the life of the village but are the things that give the village its life, its vitality.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(questionElement) {
+            const answer = questionElement.nextElementSibling;
+            const isCurrentlyOpen = answer.classList.contains('show');
+            
+            // Close all other answers first
+            document.querySelectorAll('.answer.show').forEach(openAnswer => {
+                openAnswer.classList.remove('show');
+                openAnswer.previousElementSibling.classList.remove('active');
+            });
+            
+            // Toggle the clicked answer
+            if (!isCurrentlyOpen) {
+                answer.classList.add('show');
+                questionElement.classList.add('active');
+            }
+        }
+
+        // Add smooth scrolling effect
+        document.querySelectorAll('.question').forEach(question => {
+            question.addEventListener('click', function() {
+                setTimeout(() => {
+                    this.scrollIntoView({ 
+                        behavior: 'smooth', 
+                        block: 'nearest' 
+                    });
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
